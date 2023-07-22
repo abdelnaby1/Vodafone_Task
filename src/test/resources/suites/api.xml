@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Suite">
+    <test verbose="2" preserve-order="true" name="Vodafone Task - Part 3 APIS">
+        <classes>
+            <class name="APITests.IPTests">
+            </class>
+            <class name="APITests.PredictTests">
+            </class>
+            <class name="APITests.RandomTests">
+            </class>
+            <class name="APITests.ZIPCodeTests">
+            </class>
+            <class name="APITests.UserTests">
+            </class>
+            <class name="APITests.BitcoinPriceIndexTests">
+            </class>
+        </classes>
+    </test>
+</suite>
